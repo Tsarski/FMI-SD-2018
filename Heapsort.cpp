@@ -2,12 +2,12 @@
 #include "stdafx.h"
 #include <iostream>
 
-/*template <class T>
+template <class T>
 void swap(T* one, T* two) {
 	T temp = *one;
 	*one = *two;
 	*two = temp;
-}*/
+}
 
 template <class T>
 void heapify(T* arr, int n, int i) {
